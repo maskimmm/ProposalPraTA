@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: unsrtnat.bst
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+Database file #1: dafpus/pustaka.bib
+Warning--entry type for "Worldometer" isn't style-file defined
+--line 8 of file dafpus/pustaka.bib
+Warning--entry type for "Infoplease" isn't style-file defined
+--line 16 of file dafpus/pustaka.bib
+Warning--empty journal in AgeGender
+You've used 5 entries,
+            2481 wiz_defined-function locations,
+            581 strings with 5354 characters,
+and the built_in function-call counts, 1859 in all, are:
+= -- 155
+> -- 83
+< -- 5
++ -- 34
+- -- 24
+* -- 122
+:= -- 293
+add.period$ -- 18
+call.type$ -- 5
+change.case$ -- 10
+chr.to.int$ -- 5
+cite$ -- 6
+duplicate$ -- 94
+empty$ -- 178
+format.name$ -- 33
+if$ -- 403
+int.to.chr$ -- 1
+int.to.str$ -- 6
+missing$ -- 3
+newline$ -- 36
+num.names$ -- 15
+pop$ -- 51
+preamble$ -- 1
+purify$ -- 5
+quote$ -- 0
+skip$ -- 69
+stack$ -- 0
+substring$ -- 63
+swap$ -- 17
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 35
+warning$ -- 1
+while$ -- 13
+width$ -- 0
+write$ -- 74
+(There were 3 warnings)

@@ -759,6 +759,12 @@ INPUT .\konten\4-lainnya.tex
 INPUT konten\4-lainnya.tex
 INPUT .\konten\4-lainnya.tex
 INPUT konten\4-lainnya.tex
+INPUT .\main.bbl
+INPUT main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
+INPUT D:\Program files\LaTex\fonts\tfm\public\cm\cmtt10.tfm
+INPUT D:\Program files\LaTex\fonts\tfm\public\cm\cmti10.tfm
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
@@ -766,3 +772,7 @@ INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmtt10.pfb

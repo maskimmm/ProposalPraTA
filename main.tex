@@ -73,10 +73,15 @@
   \input{konten/4-lainnya.tex}
 
   % Daftar pustaka
-  \section{DAFTAR PUSTAKA}
-  \renewcommand\refname{}
-  \vspace{-2ex}
+  \renewcommand\bibname{DAFTAR PUSTAKA}
+  \addcontentsline{toc}{chapter}{\bibname}
   \bibliographystyle{unsrtnat}
-  \bibliography{pustaka/pustaka.bib}
+  \bibliography{dafpus/pustaka.bib}
+  \cleardoublepage
+  %\section{DAFTAR PUSTAKA}
+  %\renewcommand\refname{}
+  %\vspace{-2ex}
+  %\bibliographystyle{unsrtnat}
+  %\bibliography{pustaka/pustaka.bib}
 
 \end{document}
