@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.6)  6 DEC 2021 21:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.6)  6 DEC 2021 21:22
 entering extended mode
 **"e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex"
 (e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex
@@ -478,7 +478,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
                    \relax 
 l.21 
       [2]) (konten/2-tinjauan-pustaka.tex
-<gambar/umur.png, id=113, 587.19376pt x 205.5178pt>
+<gambar/umur.png, id=105, 587.19376pt x 205.5178pt>
 File: gambar/umur.png Graphic file (type png)
 <use gambar/umur.png>
 Package pdftex.def Info: gambar/umur.png  used on input line 31.
@@ -492,7 +492,7 @@ l.43
                                                   \__shipout_drop_firstpage_...
 l.43 
       <./gambar/umur.png (PNG copy)>]
-<gambar/etnik.png, id=118, 428.35031pt x 242.40562pt>
+<gambar/etnik.png, id=110, 428.35031pt x 242.40562pt>
 File: gambar/etnik.png Graphic file (type png)
 <use gambar/etnik.png>
 Package pdftex.def Info: gambar/etnik.png  used on input line 52.
@@ -506,7 +506,7 @@ l.84
                                                   \__shipout_drop_firstpage_...
 l.84 
       <./gambar/etnik.png (PNG copy)>]
-<gambar/deeplearning.png, id=123, 428.35031pt x 380.17032pt>
+<gambar/deeplearning.png, id=115, 428.35031pt x 380.17032pt>
 File: gambar/deeplearning.png Graphic file (type png)
 <use gambar/deeplearning.png>
 Package pdftex.def Info: gambar/deeplearning.png  used on input line 96.
@@ -520,7 +520,7 @@ l.118         \item
                                                   \__shipout_drop_firstpage_...
 l.118         \item
                     Low-Level Image Processing \\ <./gambar/deeplearning.png (PNG copy)>]) (konten/3-metodologi.tex
-<gambar/UTKFace.png, id=128, 864.22874pt x 496.85625pt>
+<gambar/UTKFace.png, id=120, 864.22874pt x 496.85625pt>
 File: gambar/UTKFace.png Graphic file (type png)
 <use gambar/UTKFace.png>
 Package pdftex.def Info: gambar/UTKFace.png  used on input line 18.
@@ -534,7 +534,7 @@ l.29
                                                   \__shipout_drop_firstpage_...
 l.29 
       <./gambar/UTKFace.png>]
-<gambar/Metodologi.png, id=138, 799.48688pt x 82.05656pt>
+<gambar/Metodologi.png, id=130, 799.48688pt x 82.05656pt>
 File: gambar/Metodologi.png Graphic file (type png)
 <use gambar/Metodologi.png>
 Package pdftex.def Info: gambar/Metodologi.png  used on input line 43.
@@ -542,12 +542,12 @@ Package pdftex.def Info: gambar/Metodologi.png  used on input line 43.
 ) (konten/4-lainnya.texpdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.10 
-      [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+l.42 \end{table}
+                 [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.10 
-      <./gambar/Metodologi.png (PNG copy)>])
+l.42 \end{table}
+                 <./gambar/Metodologi.png (PNG copy)>])
 No file main.bbl.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
@@ -555,20 +555,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 l.82 \end{document}
                     [8] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 11EE44BCC874B596ECF355F5767544F9;3849.
+(rerunfilecheck)             Checksum: DCFB913F012DE4A1B04998139CEF0B53;3402.
  ) 
 Here is how much of TeX's memory you used:
- 11921 strings out of 478864
- 177384 string characters out of 2858988
- 631075 words of memory out of 3000000
- 29605 multiletter control sequences out of 15000+600000
+ 11915 strings out of 478864
+ 177298 string characters out of 2858988
+ 629778 words of memory out of 3000000
+ 29601 multiletter control sequences out of 15000+600000
  406477 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,12n,81p,1595b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 <D:/Program files/LaTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program files/LaTex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on main.pdf (8 pages, 2364948 bytes).
+Output written on main.pdf (8 pages, 2362658 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
