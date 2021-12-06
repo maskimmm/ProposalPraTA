@@ -1,0 +1,33 @@
+\section{PENDAHULUAN}
+
+\subsection{Latar Belakang}
+
+% Ubah paragraf-paragraf berikut sesuai dengan latar belakang dari tugas akhir
+Penyakit yang menyerang otak merupakan salah satu penyakit yang dapat menyebabkan manusia kehilangan kemampuan kritikalnya dalam menjalani kehidupan sehari-hari, seperti berbicara, berpikir, atau bahkan dapat menyebabkan kematian. Pada tahun 2007 berdasarkan World Health Organization (WHO) terdapat sekitar 1 miliar orang yang menderita penyakit otak, mulai dari Migrain hingga penyakit seperti Parkinson.[1] Terdapat berbagai macam jenis penyakit yang menyerang otak seperti, Alzheimer, Tumor, dan Stroke. Penyakit-penyakit ini dapat berakibat fatal apabila tidak ditangani dengan cepat, sehingga pendeteksian awal  terhadap penyakit-penyakit ini diperlukan untuk mencegah penyakit tersebut semakin memburuk.
+
+Magnetic Resonance Imaging (MRI) merupakan salah satu metode yang digunakan secara luas dalam mendeteksi kondisi abnormal pada organ manusia seperti otak (Legaz-Aparicio et al., 2017, Olson and Perry, 2013).[2][3] Metode ini semakin banyak digunakan karena karakteristiknya yang tidak berbahaya pada manusia dan dapat menghasilkan gambar dengan tingkat kontras yang tinggi (Akkus et al., 2017).[4] Perangkat Magnetic Resonance (MR) menggunakan magnet yang kuat dan sinyal frekuensi radio sebagai ganti metode radiasi ionisasi untuk menghasilkan gambar kondisi otak.
+
+Diagnosis penyakit otak dengan menggunakan MRI masih dapat dilakukan secara manual oleh radiologist dengan membaca hasil citra MRI. Berdasarkan jurnal American College of Radiology, hasil citra MRI dapat diinterpretasikan oleh radiologist dalam waktu 24 jam.[5] Pembacaan citra MRI masih bergantung terhadap kemampuan dan data yang dimiliki oleh seorang radiologist. Apabila hasil citra MRI dikeluarkan dengan cepat tanpa melalui analisa yang cukup, maka pembacaan citra MRI tersebut dapat menyebabkan kesalahan diagnosis. Namun, apabila hasil citra MRI dikeluarkan terlalu lama, maka dapat berakibat buruk pada kondisi pasien yang membutuhkan perawatan secepat mungkin.
+
+Deep learning merupakan salah satu metode yang banyak digunakan dalam penelitian mengenai klasifikasi dan segmentasi dari citra MRI otak (Akkus et al., 2017; Bernal et al. 2018).[4][6] Metode deep learning banyak digunakan karena dapat menghasilkan hasil yang akurat untuk masalah kompleks yang membutuhkan banyak data. Salah satu metode deep learning yang digunakan dalam klasifikasi citra MRI adalah dengan menggunakan Convolutional Neural Network (CNN).
+
+
+\subsection{Rumusan Masalah}
+
+% Ubah paragraf berikut sesuai dengan rumusan masalah dari tugas akhir
+Hasil pembacaan citra MRI secara konvensional oleh dokter radiologi bergantung pada jumlah data yang dimiliki dan kemampuan analisa dokter radiologi. Metode pembacaan secara konvesional ini sangat rentan terhadap human error. Kesalahan diagnosis kondisi otak dapat berakibat buruk terhadap pasien, dimana perawatan yang didapatkan oleh pasien tidak sesuai dengan kondisi pasien tersebut.
+
+\subsection{Penelitian Terkait}
+
+% Ubah paragraf berikut sesuai dengan penelitian lain yang terkait dengan tugas akhir
+Pada tahun 2019, Muhammad Talo dan rekan-rekannya mempublikasikan sebuah paper mengenai penelitian mereka mengenai klasifikasi penyakit otak dengan menggunakan 2D CNN. Pada penelitian tersebut mereka menggunakan metode transfer learning dari pre-trained model seperti: ResNet, Vgg-16, dan AlexNet. Pada penelitian tersebut mereka berhasil mengklasifikasikan 5 jenis kondisi otak (Normal, Cerebovascular, Neoplastic, Degenerative, dan Infectious) dan ResNet-50 mendapatkan hasil terbaik dengan tingkat akurasi mencapai 95%.[7]
+ 
+Pada bulan Agustus 2021, Juezhao Yu., Et al. mempublikasikan sebuah paper dengan judul “2D CNN vs 3D CNN for False-Positive Reduction in Lung Cancer Screening”. Pada research tersebut mereka melakukan percobaan dengan menggunakan citra MRI untuk kanker paru-paru dan meneliti apakah 3D CNN dapat mengurangi nilai false-positive apabila dibandingkan dengan 2D CNN. Pada penelitian tersebut mereka berhasil mendapatkan bahwa  3D CNN berhasil mengurangi nilai false-positive sebanyak 2%.[8]
+
+\subsection{Gap Penelitian}
+Penelitian mengenai klasifikasi penyakit otak  menggunakan CNN masih menggunakan metode 2D CNN, namun belum terdapat penelitian mengenai klasifikasi penyakit otak menggunakan 3D CNN.
+
+\subsection{Tujuan Penelitian}
+
+% Ubah paragraf berikut sesuai dengan tujuan penelitian dari tugas akhir
+Penelitian ini bertujuan untuk dapat mengembangkan sebuah sistem yang dapat mengklasifikasikan 4 tipe kondisi otak, yaitu 1 kondisi otak normal dan 3 lainnya merupakan kondisi berpenyakit seperti: Alzheimer, Tumor dan Stroke dengan menggunakan metode 3D CNN pada deep learning.
