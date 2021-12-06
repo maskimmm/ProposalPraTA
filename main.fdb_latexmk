@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1638800582 "main.aux" "main.bbl" "main" 1638800582
+["bibtex main"] 1638801609 "main.aux" "main.bbl" "main" 1638801623
   "D:/Program files/LaTex/bibtex/bst/natbib/unsrtnat.bst" 1284455456 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1638800579 4545 434e072d4038a86470885138635ae475 "pdflatex"
+  "main.aux" 1638801620 4545 434e072d4038a86470885138635ae475 "pdflatex"
   "pustaka/pustaka.bib" 0 -1 0 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1638800572 "e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex" "main.pdf" "main" 1638800582
+["pdflatex"] 1638801609 "e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex" "main.pdf" "main" 1638801623
   "C:/Users/fathu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1636162591 9732523 210a0a8a4d77529a2eeb5148694f2214 ""
   "C:/Users/fathu/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1638773157 82507 a9eef8696c92627b87e9975edea03b2a ""
   "D:/Program files/LaTex/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -99,13 +99,13 @@
   "gambar/deeplearning.png" 1638792677 72512 e8105cca906c8ae9955ed07ce9eeba38 ""
   "gambar/etnik.png" 1638792665 321174 599421e8244700fdacb1a213716706c8 ""
   "gambar/umur.png" 1638792631 106370 2a45c93612b91665b59ad54d23b10856 ""
-  "konten/1-pendahuluan.tex" 1638790562 4782 e882ec5b79e5a6b9e0b35fb9990599b2 ""
+  "konten/1-pendahuluan.tex" 1638801607 4854 263cc130b4d5d7893a8294177886ae38 ""
   "konten/2-tinjauan-pustaka.tex" 1638796868 9222 d1ccc81600097170145fc7069f00f771 ""
   "konten/3-metodologi.tex" 1638799928 3798 f9262305dc48f8cae91dcf60d145397e ""
   "konten/4-lainnya.tex" 1638800570 1381 00d60c93bc719135cb2599366201c928 ""
-  "main.aux" 1638800579 4545 434e072d4038a86470885138635ae475 "pdflatex"
+  "main.aux" 1638801620 4545 434e072d4038a86470885138635ae475 "pdflatex"
   "main.bbl" 0 -1 0 "bibtex main"
-  "main.out" 1638800579 3402 dcfb913f012de4a1b04998139cef0b53 "pdflatex"
+  "main.out" 1638801620 3402 dcfb913f012de4a1b04998139cef0b53 "pdflatex"
   "main.tex" 1638791934 2239 6312f0552ba50e7a67d01a11a44f3a9e ""
   "pengesahan/pengesahan.tex" 1638786749 3722 9ea21b52a72ffa198f22ecc97a709023 ""
   (generated)
