@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1638790563 "main.aux" "main.bbl" "main" 1638790568
+["bibtex main"] 1638796879 "main.aux" "main.bbl" "main" 1638796886
   "D:/Program files/LaTex/bibtex/bst/natbib/unsrtnat.bst" 1284455456 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1638790567 3573 186a91c156069f1d815bf54e4e6adedb "pdflatex"
+  "main.aux" 1638796884 4654 b4845fac316043b763cf7df50b2c902b "pdflatex"
   "pustaka/pustaka.bib" 0 -1 0 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1638790563 "e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex" "main.pdf" "main" 1638790568
+["pdflatex"] 1638796879 "e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex" "main.pdf" "main" 1638796886
   "C:/Users/fathu/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1636207309 12668 fa945392c94d8480a2133448ae75c561 ""
   "C:/Users/fathu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1636162591 9732523 210a0a8a4d77529a2eeb5148694f2214 ""
   "C:/Users/fathu/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1638773157 82507 a9eef8696c92627b87e9975edea03b2a ""
@@ -97,16 +97,19 @@
   "D:/Program files/LaTex/tex/latex/tools/multicol.sty" 1622550326 31530 f9ba11d1c179e918d577463ebdb887ca ""
   "D:/Program files/LaTex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "D:/Program files/LaTex/tex/latex/xcolor/xcolor.sty" 1623005660 55589 34128738f682d033422ca125f82e5d62 ""
-  "e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex" 1638787493 2222 6d6eac1b1d9d655deb031a8d6eac8f0f ""
-  "gambar/Metodologi.png" 1638772845 7243 6f1bf7b542a7c61e4ed592d336196bf2 ""
+  "e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex" 1638791934 2239 6312f0552ba50e7a67d01a11a44f3a9e ""
+  "gambar/Metodologi.png" 1638792706 9601 a7815bcbf544d9c7e45b19a96d9a6ba1 ""
+  "gambar/deeplearning.png" 1638792677 72512 e8105cca906c8ae9955ed07ce9eeba38 ""
+  "gambar/etnik.png" 1638792665 321174 599421e8244700fdacb1a213716706c8 ""
+  "gambar/umur.png" 1638792631 106370 2a45c93612b91665b59ad54d23b10856 ""
   "konten/1-pendahuluan.tex" 1638790562 4782 e882ec5b79e5a6b9e0b35fb9990599b2 ""
-  "konten/2-tinjauan-pustaka.tex" 1638773015 8496 7b81a3c6dc70976d7241903130ce5d19 ""
+  "konten/2-tinjauan-pustaka.tex" 1638796868 9222 d1ccc81600097170145fc7069f00f771 ""
   "konten/3-metodologi.tex" 1638773036 3083 2b26c31263c3053b3fc3075bd44963b3 ""
   "konten/4-lainnya.tex" 1638773059 1689 41d48ca8fe34435fa9fdb226f2abd322 ""
-  "main.aux" 1638790567 3573 186a91c156069f1d815bf54e4e6adedb "pdflatex"
+  "main.aux" 1638796884 4654 b4845fac316043b763cf7df50b2c902b "pdflatex"
   "main.bbl" 0 -1 0 "bibtex main"
-  "main.out" 1638790567 3595 e3dee12299f1f51201efcf332e14abb8 "pdflatex"
-  "main.tex" 1638787493 2222 6d6eac1b1d9d655deb031a8d6eac8f0f ""
+  "main.out" 1638796884 4019 1f4ac2bd34d8f926bd2df32bae59052a "pdflatex"
+  "main.tex" 1638791934 2239 6312f0552ba50e7a67d01a11a44f3a9e ""
   "pengesahan/pengesahan.tex" 1638786749 3722 9ea21b52a72ffa198f22ecc97a709023 ""
   (generated)
   "main.aux"
