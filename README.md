@@ -1,2 +1,2 @@
 # ProposalPraTA
-Template Proposal Pra TA Teknik KOmputer ITS
+Template Proposal Pra TA Teknik Komputer ITS
