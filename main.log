@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.6)  6 DEC 2021 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.6)  6 DEC 2021 21:12
 entering extended mode
 **"e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex"
 (e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex
@@ -520,25 +520,30 @@ l.118         \item
                                                   \__shipout_drop_firstpage_...
 l.118         \item
                     Low-Level Image Processing \\ <./gambar/deeplearning.png (PNG copy)>]) (konten/3-metodologi.tex
-<gambar/Metodologi.png, id=128, 799.48688pt x 82.05656pt>
-File: gambar/Metodologi.png Graphic file (type png)
-<use gambar/Metodologi.png>
-Package pdftex.def Info: gambar/Metodologi.png  used on input line 27.
-(pdftex.def)             Requested size: 799.48492pt x 82.05635pt.
-
-Overfull \hbox (344.24081pt too wide) in paragraph at lines 27--29
- [][] 
- []
-
+<gambar/UTKFace.png, id=128, 864.22874pt x 496.85625pt>
+File: gambar/UTKFace.png Graphic file (type png)
+<use gambar/UTKFace.png>
+Package pdftex.def Info: gambar/UTKFace.png  used on input line 18.
+(pdftex.def)             Requested size: 172.84268pt x 99.36948pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 
-      [6]) (konten/4-lainnya.texpdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+l.29 
+      [6pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.29 
+      <./gambar/UTKFace.png>]
+<gambar/Metodologi.png, id=138, 799.48688pt x 82.05656pt>
+File: gambar/Metodologi.png Graphic file (type png)
+<use gambar/Metodologi.png>
+Package pdftex.def Info: gambar/Metodologi.png  used on input line 43.
+(pdftex.def)             Requested size: 399.74246pt x 41.02817pt.
+) (konten/4-lainnya.texpdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.10 
-      [7pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+      [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.10 
@@ -550,20 +555,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 l.82 \end{document}
                     [8] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1F4AC2BD34D8F926BD2DF32BAE59052A;4019.
+(rerunfilecheck)             Checksum: 11EE44BCC874B596ECF355F5767544F9;3849.
  ) 
 Here is how much of TeX's memory you used:
- 11912 strings out of 478864
- 177246 string characters out of 2858988
- 630991 words of memory out of 3000000
- 29601 multiletter control sequences out of 15000+600000
- 407164 words of font info for 39 fonts, out of 8000000 for 9000
+ 11921 strings out of 478864
+ 177384 string characters out of 2858988
+ 631075 words of memory out of 3000000
+ 29605 multiletter control sequences out of 15000+600000
+ 406477 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,12n,81p,1595b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\fathu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><D:/Program files/LaTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program files/LaTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program files/LaTex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (8 pages, 603758 bytes).
+ 70i,12n,81p,1595b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
+<D:/Program files/LaTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program files/LaTex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on main.pdf (8 pages, 2364948 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

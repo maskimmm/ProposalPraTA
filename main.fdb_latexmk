@@ -1,16 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1638796879 "main.aux" "main.bbl" "main" 1638796886
+["bibtex main"] 1638799936 "main.aux" "main.bbl" "main" 1638799942
   "D:/Program files/LaTex/bibtex/bst/natbib/unsrtnat.bst" 1284455456 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1638796884 4654 b4845fac316043b763cf7df50b2c902b "pdflatex"
+  "main.aux" 1638799940 4811 6e922f4965a558ebe1b8e459945722d3 "pdflatex"
   "pustaka/pustaka.bib" 0 -1 0 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1638796879 "e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex" "main.pdf" "main" 1638796886
-  "C:/Users/fathu/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1636207309 12668 fa945392c94d8480a2133448ae75c561 ""
+["pdflatex"] 1638799936 "e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex" "main.pdf" "main" 1638799942
   "C:/Users/fathu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1636162591 9732523 210a0a8a4d77529a2eeb5148694f2214 ""
   "C:/Users/fathu/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1638773157 82507 a9eef8696c92627b87e9975edea03b2a ""
-  "D:/Program files/LaTex/fonts/tfm/jknappen/ec/tcrm1095.tfm" 993062508 1460 8005ce585ff351dff78998923504da5e ""
   "D:/Program files/LaTex/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "D:/Program files/LaTex/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
   "D:/Program files/LaTex/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -21,10 +19,8 @@
   "D:/Program files/LaTex/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "D:/Program files/LaTex/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "D:/Program files/LaTex/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
-  "D:/Program files/LaTex/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "D:/Program files/LaTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "D:/Program files/LaTex/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
-  "D:/Program files/LaTex/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "D:/Program files/LaTex/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "D:/Program files/LaTex/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "D:/Program files/LaTex/tex/generic/babel/babel.def" 1622647513 121009 d797444026f7ec580bc6c8aa432a71ab ""
@@ -99,16 +95,17 @@
   "D:/Program files/LaTex/tex/latex/xcolor/xcolor.sty" 1623005660 55589 34128738f682d033422ca125f82e5d62 ""
   "e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex" 1638791934 2239 6312f0552ba50e7a67d01a11a44f3a9e ""
   "gambar/Metodologi.png" 1638792706 9601 a7815bcbf544d9c7e45b19a96d9a6ba1 ""
+  "gambar/UTKFace.png" 1638792743 1408452 ab7a4c650a7c060e03cfd41f00dcae10 ""
   "gambar/deeplearning.png" 1638792677 72512 e8105cca906c8ae9955ed07ce9eeba38 ""
   "gambar/etnik.png" 1638792665 321174 599421e8244700fdacb1a213716706c8 ""
   "gambar/umur.png" 1638792631 106370 2a45c93612b91665b59ad54d23b10856 ""
   "konten/1-pendahuluan.tex" 1638790562 4782 e882ec5b79e5a6b9e0b35fb9990599b2 ""
   "konten/2-tinjauan-pustaka.tex" 1638796868 9222 d1ccc81600097170145fc7069f00f771 ""
-  "konten/3-metodologi.tex" 1638773036 3083 2b26c31263c3053b3fc3075bd44963b3 ""
+  "konten/3-metodologi.tex" 1638799928 3798 f9262305dc48f8cae91dcf60d145397e ""
   "konten/4-lainnya.tex" 1638773059 1689 41d48ca8fe34435fa9fdb226f2abd322 ""
-  "main.aux" 1638796884 4654 b4845fac316043b763cf7df50b2c902b "pdflatex"
+  "main.aux" 1638799940 4811 6e922f4965a558ebe1b8e459945722d3 "pdflatex"
   "main.bbl" 0 -1 0 "bibtex main"
-  "main.out" 1638796884 4019 1f4ac2bd34d8f926bd2df32bae59052a "pdflatex"
+  "main.out" 1638799940 3849 11ee44bcc874b596ecf355f5767544f9 "pdflatex"
   "main.tex" 1638791934 2239 6312f0552ba50e7a67d01a11a44f3a9e ""
   "pengesahan/pengesahan.tex" 1638786749 3722 9ea21b52a72ffa198f22ecc97a709023 ""
   (generated)

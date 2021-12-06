@@ -2,51 +2,69 @@
 
 % Ubah konten-konten berikut sesuai dengan isi dari metodologi
 
-\subsection{Data dan Peralatan/ Data dan Alat Bantu/ Material}
+\subsection{Data dan Peralatan}
 
-Penelitian ini menggunakan publik dataset yang dikumpulkan dari berbagai sumber untuk setiap kondisi otak, dengan rincian sebagai berikut:
-
+Berikut merupakan data dan perlatan yang mendukung pengerjaan Tugas Akhir ini.
 \begin{itemize}
-    \item MRI otak normal\\
-          Bersumber dari \textbf{IXI Dataset} dengan jumlah citra sebanyak 578.
-    \item MRI otak tumor\\
-          Bersumber dari \textbf{TCIA Dataset} dengan jumlah citra sebanyak 167.
-    \item MRI otak alzheimer\\
-          Bersumber dari \textbf{ADNI Dataset} dengan jumlah citra sebanyak x.
-    \item MRI otak stroke\\
-          Bersumber dari \textbf{ATLAS Dataset} dengan jumlah citra sebanyak x.
-\end{itemize}
+   \item [a.] UTKFace Dataset \\
+   UTKFace dataset  merupakan dataset wajah dengan rentan umur yang panjang (dari 0 hingga 116 tahun). 
+   Terdiri atas lebih dari 20.000 gambar wajah dengan anotasi umur, jenis kelamin dan etnik. Gambar wajah
+   dalam dataset memiliki berbagai pose, ekspresi wajah, resolusi dan banyak lagi. Dataset ini dapat 
+   digunakan untuk berbagai jenis tugas seperti deteksi wajah, perkiraan umur, pengurangan umur dan 
+   lainnya[14]. Untuk waktu pengaksesan dataset ini adalah 10 Oktober 2021 pada link 
+   www.kaggle.com/jangedoo/utkface-new.
+    \begin{figure} [H] \centering
+      % Nama dari file gambar yang diinputkan
+      \includegraphics[scale=0.2]{gambar/UTKFace.png}
+      % Keterangan gambar yang diinputkan
+      \caption{Dataset UTKFace}
+      % Label referensi dari gambar yang diinputkan
+      \label{fig:UTKFace}
+    \end{figure}
 
-Penelitian ini menggunakan bahasa pemrograman Python serta device yang bersumber dari cloud service google collaboratory dengan spesifikasi 2vCPU @ 2.2GHz, 13GB RAM, dan 100 GB Memory.
+   \item [b.] Laptop \\
+   Personal computer portable dengan spesifikasi prosesor intel i5 generasi lima, GPU nvidia Geforce 930M, 
+   RAM 8GB dan storage 750GB akan digunakan untuk pembuatan model dan pencobaan model yang sudah jadi 
+   menggunakan kamera yang tersedia pada perangkat.
+
+   \item [c.] Google Collab \\
+   Merupakan sebuah website yang dimiliki oleh Google yang dapat digunakan untuk membuat program dan 
+   menjalankannya. Menyediakan beberapa pilihan untuk menjalankan program melalui koneksi internet dan 
+   tidak membebani kerja komputer. Dalam tugas akhir ini berfungsi sebagai tempat menjalankan program 
+   training dataset dan juga pembuatan model menggunakan GPU dalam cloud yang disediakan Google Collab.
+\end{itemize}
+   
 
 \subsection{Metodologi Penelitian}
-
+Metodologi yang digunakan dalam pengerjaan Tugas Akhir ini adalah sebagai berikut.
     % Contoh input gambar dengan format *.jpg
     \begin{figure} [H] \centering
       % Nama dari file gambar yang diinputkan
-      \includegraphics[scale=1]{gambar/Metodologi.png}
+      \includegraphics[scale=0.5]{gambar/Metodologi.png}
       % Keterangan gambar yang diinputkan
-      \caption{Metodologi Penelitian}
+      \caption{Diagram blok metodologi}
       % Label referensi dari gambar yang diinputkan
       \label{fig:Metodologi}
     \end{figure}
 
-Pada \emph{Metodologi} yang tertera di Gambar \ref{fig:Metodologi} terdapat 5 tahap dengan detail sebagai berikut:
-\begin{outline}
-    \1 Labeled Data \\
-       Dataset yang digunakan dalam penelitian ini merupakan dataset citra MRI dalam bentuk 3D dengan format NifTI yang sudah memiliki label mengenai kondisi citra otak.
-    \1 Data Pre-Processing \\
-       Dataset yang sudah diberi label dilakukan pre-processing sebelum masuk ke dalam model agar seluruh data memiliki ukuran dan bentuk yang sama. Pre-process data ini dibagi menjadi 3 bagian yaitu:
-       \2 Normalisasi nilai pixel \\
-          Nilai pixel dari setiap image dilakukan proses normalisasi agar berada pada range tertentu.
-       \2 Normalisasi bentuk image \\
-          Bentuk 3D image dilakukan proses normalisasi agar berada pada volume dan bentuk yang sama.
-       \2 Data Augmentasi
-          Data dirotasi dengan sudut acak untuk menambah jumlah variasi dataset.
-    \1 Training Model \\
-       Pada penelitian ini model dibuat dengan menggunakan Convolution 3D layer dan Pooling 3D layer. Pada tahap ini akan melakukan percobaan terhadap jumlah layer dan tipe layer model. Selain itu pada tahap ini juga akan dicoba berbagai macam macro function yang berbeda seperti loss function, optimizer function, epoch, dan batch size pada saat training.
-    \1 Evaluate Model \\
-       Proses evaluasi performa model akan menggunakan confusion matrix yang dengan 4 metric perhitungan, seperti: accuracy, recall, precision, dan F1 Score.
-    \1 Fine-Tuned Model \\
-       Hasil akhirnya akan berupa sebuah model 3D CNN yang dapat mengklasifikasikan 4 tipe kondisi otak, yaitu: Normal, Alzheimer, Tumor, dan Stroke.
-\end{outline}
+\begin{enumerate}
+   \item \textbf{Pemrosesan Dataset} \\
+   Pada tahap ini dataset yang digunakan aakn dicek dan dibagi berdasarkan training, validation dan 
+   testing, serta menyiapkan dataset untuk digunakan pada pembuatan model nantinya.
+   \item \textbf{Pemilihan Model} \\
+   Memilih model atau arsitektur Convolutional Neural Network atau CNN yang tepat sesuai dengan UTKFace 
+   dataset yang telah disediakan sebelumnya dan membangun model untuk keperluan training.
+   \item \textbf{Training} \\
+   Pada tahap ini dataset akan digunakan untuk melatih komputer dengan cara mengolah gambar dan anotasi 
+   yang telah dibuat sehingga terbentuk pola atau karakteristik dari masing masing kelas yang akan 
+   menjadi bahan pertimbangan komputer dalam mencapai sebuah keputusan atau melakukan prediksi. 
+   Proses training akan dilakukan menggunakan Covolutional Neural Network atau CNN pada citra wajah 
+   yang diberikan.
+   \item \textbf{Tuning} \\
+   Model yang sudah jadi akan dievaluasi dan dilakukan pengaturan lagi untuk meningkatkan peforma dan 
+   keakuratan model.
+   \item \textbf{Pengujian dan Analisa} \\
+   Sistem yang sudah jadi akan diuji pada dataset yang telah disiapkan untuk testing dan juga akan dicoba 
+   pada kamera di wilayah ramai orang untuk mengumpulkan data. Kemudian data yang diperoleh dianalisa 
+   dan dicatat untuk keperluan pembuatan laporan nantinya.
+\end{enumerate}

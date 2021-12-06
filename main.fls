@@ -741,7 +741,13 @@ INPUT .\konten\3-metodologi.tex
 INPUT konten\3-metodologi.tex
 INPUT .\konten\3-metodologi.tex
 INPUT konten\3-metodologi.tex
-INPUT D:\Program files\LaTex\fonts\tfm\jknappen\ec\tcrm1095.tfm
+INPUT .\gambar\UTKFace.png
+INPUT .\gambar\UTKFace.png
+INPUT gambar\UTKFace.png
+INPUT .\gambar\UTKFace.png
+INPUT .\gambar\UTKFace.png
+INPUT .\gambar\UTKFace.png
+INPUT .\gambar\UTKFace.png
 INPUT .\gambar\Metodologi.png
 INPUT .\gambar\Metodologi.png
 INPUT gambar\Metodologi.png
@@ -749,7 +755,6 @@ INPUT .\gambar\Metodologi.png
 INPUT .\gambar\Metodologi.png
 INPUT .\gambar\Metodologi.png
 INPUT .\gambar\Metodologi.png
-INPUT D:\Program files\LaTex\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\konten\4-lainnya.tex
 INPUT konten\4-lainnya.tex
 INPUT .\konten\4-lainnya.tex
@@ -757,11 +762,7 @@ INPUT konten\4-lainnya.tex
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
-INPUT C:\Users\fathu\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
-INPUT C:\Users\fathu\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT D:\Program files\LaTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
