@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1638808413 "main.aux" "main.bbl" "main" 1638808419
+["bibtex main"] 1638811332 "main.aux" "main.bbl" "main" 1638811333
   "D:/Program files/LaTex/bibtex/bst/natbib/unsrtnat.bst" 1284455456 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "dafpus/pustaka.bib" 1638808386 2439 ca5a4a0f6a6b0b668add9d270604f617 ""
-  "main.aux" 1638808418 4948 efa89685d4b95800c922117d527a043c "pdflatex"
+  "dafpus/pustaka.bib" 1638811330 2589 b66d483bfd9209b06a2972ac9c0e5c69 ""
+  "main.aux" 1638811243 4948 efa89685d4b95800c922117d527a043c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1638808414 "e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex" "main.pdf" "main" 1638808419
+["pdflatex"] 1638811238 "e:/1. MATKUL/SM 7/Pra TA/Proposal Pra TA/ProposalPraTA/main.tex" "main.pdf" "main" 1638811333
   "C:/Users/fathu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1636162591 9732523 210a0a8a4d77529a2eeb5148694f2214 ""
   "C:/Users/fathu/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1638773157 82507 a9eef8696c92627b87e9975edea03b2a ""
   "D:/Program files/LaTex/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -107,9 +107,9 @@
   "konten/2-tinjauan-pustaka.tex" 1638796868 9222 d1ccc81600097170145fc7069f00f771 ""
   "konten/3-metodologi.tex" 1638799928 3798 f9262305dc48f8cae91dcf60d145397e ""
   "konten/4-lainnya.tex" 1638800570 1381 00d60c93bc719135cb2599366201c928 ""
-  "main.aux" 1638808418 4948 efa89685d4b95800c922117d527a043c "pdflatex"
-  "main.bbl" 1638808414 1689 55111c0b353822b0caaab74a8071c6ed "bibtex main"
-  "main.out" 1638808419 3389 74be625cb6350fbfe124a3a55e1529cb "pdflatex"
+  "main.aux" 1638811243 4948 efa89685d4b95800c922117d527a043c "pdflatex"
+  "main.bbl" 1638811333 1689 55111c0b353822b0caaab74a8071c6ed "bibtex main"
+  "main.out" 1638811243 3389 74be625cb6350fbfe124a3a55e1529cb "pdflatex"
   "main.tex" 1638806418 2418 6689732a230194dcf12d2e226597c341 ""
   "pengesahan/pengesahan.tex" 1638786749 3722 9ea21b52a72ffa198f22ecc97a709023 ""
   (generated)
