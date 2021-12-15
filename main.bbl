@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{14}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -16,27 +16,77 @@ Infoplease.
 \newblock URL
   \url{https://www.infoplease.com/world/social-statistics/ethnicity-and-race-countries}.
 
-\bibitem[Garain et~al.(2021)Garain, Ray, Singh, Ahmadian, Senu, and
-  Sarkar]{Granet}
-Avishek Garain, Biswarup Ray, Pawan~Kumar Singh, Ali Ahmadian, Norazak Senu,
-  and Ram Sarkar.
+\bibitem[et~al(2021{\natexlab{a}})]{Granet}
+Garain~Avishek et~al.
 \newblock Granet a deep learning model for classification of age and gender
   from facial images.
-\newblock \emph{IEEE Access}, 9:\penalty0 85672--85689, 2021.
+\newblock \emph{IEEE Access}, 9:\penalty0 85672--85689, 2021{\natexlab{a}}.
 \newblock \doi{10.1109/ACCESS.2021.3085971}.
 
-\bibitem[A.~Abu~Nada and Abu-Naser(2021)]{AgeGender}
-A.~Al-Saqqa A.~Abu~Nada, E.~Alajrami and S.~Abu-Naser.
+\bibitem[et~al(2021{\natexlab{b}})]{AgeGender}
+A.~Abu~Nada et~al.
 \newblock Age and gender prediction and validation through single user images
   using cnn.
-\newblock 2021.
+\newblock 2021{\natexlab{b}}.
 \newblock URL \url{http://dstore.alazhar.edu.ps/xmlui/handle/123456789/632}.
 
-\bibitem[Guo and Mu(2010)]{HumanAgeEst}
-Guodong Guo and Guowang Mu.
+\bibitem[Guodong and Guowang(2010)]{HumanAgeEst}
+Guo Guodong and Mu~Guowang.
 \newblock Human age estimation: What is the influence across race and gender?
 \newblock In \emph{2010 IEEE Computer Society Conference on Computer Vision and
   Pattern Recognition - Workshops}, pages 71--78, 2010.
 \newblock \doi{10.1109/CVPRW.2010.5543609}.
+
+\bibitem[Adi(2015)]{MasaTubuh}
+I.~G. P.~Ngurah Adi.
+\newblock Hubungan indeks massa tubuh (imt) dan umur terhadap daya tahan umum
+  (kardiovaskuler) mahasiswa putra semester ii kelas a fakultas pendidikan
+  olahraga dan kesehatan ikip pgri bali tahun 2014.
+\newblock 1, 2015.
+
+\bibitem[Eckert and McConnell-Ginet(2003)]{LanguageGender}
+P.~Eckert and S.~McConnell-Ginet.
+\newblock Language and gender.
+\newblock 2003.
+
+\bibitem[Eriksen(2012)]{Ethnicity}
+T.~Eriksen.
+\newblock The wiley-blackwell encyclopedia of globalization.
+\newblock 2012.
+
+\bibitem[et~al(2017)]{MachineVisionMachineLearning}
+P.~Y.~Chen et~al.
+\newblock Implement of a 6-dof manipulator with machine vision and machine
+  learning algorithms.
+\newblock In \emph{International Conference on Applied Electronics (AE)}, pages
+  1--5, 2017.
+\newblock \doi{10.23919/AE.2017.8053583}.
+
+\bibitem[Alpaydin(2004)]{MachineLearning}
+E.~Alpaydin.
+\newblock Introduction to machine learning.
+\newblock 2004.
+
+\bibitem[Putra(2019)]{DeepLearning}
+J.~W.~G. Putra.
+\newblock Pengenalan konsep pembelajaran mesin dan deep learning.
+\newblock 2019.
+
+\bibitem[et~al(2016)]{CNN}
+R.~S. I Wayan~Suartika et~al.
+\newblock Klasifikasi citra menggunakan convolutional neural network (cnn) pada
+  caltech 101.
+\newblock In \emph{JURNAL TEKNIK ITS}, volume~5, 2016.
+
+\bibitem[Tyagi(2018)]{ImageProcesing}
+V.~Tyagi.
+\newblock Understanding digital image processingg.
+\newblock 2018.
+
+\bibitem[Sanjaya(2018)]{UTKFace}
+S.~Sanjaya.
+\newblock Kaggle-utkface dataset.
+\newblock 2018.
+\newblock URL \url{https://www.kaggle.com/jangedoo/utkface-new}.
 
 \end{thebibliography}
