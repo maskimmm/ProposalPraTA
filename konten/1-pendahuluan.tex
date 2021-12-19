@@ -3,62 +3,32 @@
 \subsection{Latar Belakang}
 
 % Ubah paragraf-paragraf berikut sesuai dengan latar belakang dari tugas akhir
-Umur, gender dan etnik merupakan beberapa hal penting dalam wajah yang menentukan bagaimana seorang 
-individu berinteraksi sosial. Setiap bahasa di dunia memiliki panggilan kehormatan yang berbeda-beda 
-untuk pria dan wanita, perbedaan umur juga dapat menentukan bagaimana seseorang harus bersikap dengan 
-orang yang lebih muda ataupun dengan yang lebih tua, sedangkan etnik juga dapat menentukan cara berbahasa 
-dan berperilaku pada seseorang. Kebiasaan dan sikap tersebut sebagian besar tergantung pada kemampuan 
-seseorang dalam memperkirakan atau mengestimasi individu tersebut melalui penampakan gender, umur dan 
-etnik. Dimana identitas, ekspresi, gender, umur dan etnik disebut dengan fitur dalam wajah.
-Selain itu, fitur dalam wajah juga sering digunakan di berbagai bidang, seperti di kepolisian untuk 
-mencari pelaku tindak kriminal yang mengidentifkasi pelaku dari wajah. diagnosa medis yang menggunakan 
-wajah untuk menentukan penanganan yang cocok untuk pasien. Di dunia bisnis fitur wajah juga digunakan 
-dalam pembagian target pasar untu lebih meningkatkan proses bisnis.
-Hal ini membuat identifikasi umur, gender dan etnik dapat sangat berguna dalam banyak pengimplementasian 
-ilmu seperti pengamatan visual, diagnosa medis, sistem interaksi komputer manusia, biometric, pengumpulan 
-informasi, penegakan hukum, pemasaran dan banyak lainnya. Dimana sebagian besar data mengenai fitur wajah 
-tersebut masih diambil secara manual melalui survei ataupun pengamatan pada banyak individu.
-Berdasarkan World Population Clock pada websitenya, di dunia terdapat lebih dari 7 miliar orang yang 
-tersebar di berbagai macam pulau dan benua. Jumlah tersebut masih terus bertambah sampai sekarang \citep{Worldometer}.
-Dimana di setiap benua dan negara tersebut terdapat berbagai karakteristik dan ciri manusia yang berbeda 
-dengan kata lain Etnik yang berbeda-beda \citep{Infoplease}. Dengan banyaknya jumlah penduduk dan keberagamannya tersebut, 
-jika data fitur wajah diambil secara manual akan memakan waktu dan tenaga yang banyak.
+Komunikasi, pada dasarnya merupakan aktivitas dasar manusia. Dengan adanya komunikasi, manusia dapat saling berhubungan dengan satu sama lain. Tulisan merupakan salah satu bentuk ragam komunikasi. Dengan adanya tulisan, suatu ide atau gagasan dapat dituangkan dan disampaikan kepada pembaca secara asinkronus serta dapat diabadikan. Secara umum, ragam tulisan dibagi menjadi 2 yaitu tulisan cetak pada dokumen dan tulisan tangan.\par
+Segmentasi dokumen gambar menjadi suatu bentuk kalimat merupakan Langkah penting untuk memahami suatu dokumen. Tidak seperti dokumen cetak, segmentasi pada dokumen bertulisan tangan masih merupakan suatu hal yang menantang karena memiliki ukuran spacing yang tidak menentu antar hurufnya serta memiliki variasi bentuk gaya tulisan [1]. Tulisan cetak pada dokumen merupakan tulisan yang pengaturan dan gaya penulisannya diatur dan dikenali oleh program computer.\par
+\textit{Optical Character Recognition (OCR)} adalah proses konversi gambar huruf menjadi karakter ASCII yang dikenali oleh komputer. Walaupun diklaim memiliki akurasi hingga 99\%, \textit{Optical Character Recognition (OCR)} yang ada saat ini memiliki penurunan akurasi ketika dihadapkan kepada gambar dengan kualitas rendah seperti \textit{noise} gambar, kualitas cetakan rendah, karakter berdekatan [2], dan karakter dengan variasi yang tidak umum (tulisan tangan).\par
+Papan tulis merupakan suatu media yang biasa digunakan untuk menuangkan tulisan, ide, ataupun gagasan dalam proses belajar dan mengajar. Seiring dengan perkembangan teknologi, berbagai teknologi \textit{Internet of Things} diterapkan pada papan tulis sehingga memiliki fitur tambahan yang dapat mempermudah proses belajar dan mengajar. Telah banyak teknologi yang dapat memproyeksikan gambar atau tulisan pada computer ke papan tulis pintar [3]. Namun, belum ada teknologi yang mampu mengenali tulisan tangan pada papan tulis pintar.
+
 
 
 \subsection{Permasalahan}
 
 % Ubah paragraf berikut sesuai dengan permasalahan dari tugas akhir
-Pengambilan data terkait fitur wajah terutama umur, gender dan etnis masih dilakukan secara manual yang 
-membutuhkan waktu dan tenaga relatif banyak. Oleh karena itu, diperlukan model yang dapat mengestimasi 
-umur, gender dan etnik dari individu untuk mempermudah proses pengambilan data.
+Permasalahan yang didapat yaitu diperlukannya suatu metode untuk mendeteksi dan klasifikasi teks huruf balok untuk diterapkan pada alat \textit{Smart Whiteboard.} 
 
 \subsection{Penelitian Terkait}
-
 % Ubah paragraf berikut sesuai dengan penelitian lain yang terkait dengan tugas akhir
-Berberapa penelitian yang telah dilakukan terkait dengan judul Tugas Akhir ini antara lain dilakukan oleh 
-A. Garain et al. GRANet A Deep Learning Model for Classification of Age and GenderFrom Facial Images. 
-Dimana pada penelitian tersebut mencoba menggunakan beberapa dataset seperti wikipedia age dataset, 
-FG-Net, AFAD, AduenceDB dataset dan UTKFace dataset serta menggunakan model yang arsitekturnya seperti 
-Residual Attention Network dengan tambahan parameter Gate seperti pada Gated Residual Units (GRU’s). 
-Yang berhasil melakukan prediksi umur dan gender dengan baik. Namun belum menggunakan pendeteksian etnik\citep{Granet}. 
-Penelitian lainnya dilakukan oleh G. Guo et al. dengan judul Human Age Estimation What is the Influence 
-Across Race and Gender yang menggunakan database MORPH-II dengan data gambar wajah sebanyak 55.000. 
-Mereka membandingkan hasil estimasi umur antara individu dengan sesama etnik dan dengan yang berbeda 
-etnik. Didapatkan tingkat eror yang signifikan pada percobaan estimasi individu  yang  berbeda etnik\citep{AgeGender}. 
-Kemudian penelitian oleh M. Shin et al. Face Image-Based Age and Gender Estimation with Consideration of 
-Ethnic Difference, pada penelitian ini menggunakan CNN dan SVM yang berfungsi memisahkan dua etnik 
-menjadi Asia dan Non Asia yang kemudian hasilnya digunakan untuk mendeteksi umur dan gender dari wajah 
-yang diberikan. Dihasilkan bahwa pemisahan etnik dapat meningkatkan keakuratan estimasi umur, namun tidak 
-berpengaruh pada gender\citep{HumanAgeEst}.
+
+\subsubsection{Penelitian Berkaitan dengan \textit{Smart Whiteboard}}
+Kellerman et al. [3] mencoba untuk menyediakan suatu cara alternatif dan terjangkau pada papan tulis atau slides agar bisa mendapat interaksi lebih dari murid serta untuk meningkatkan efisiensi dari pengajaran. Pada penelitiannya, peneliti membuat sebuah papan tulis interaktif menggunakan Nintendo Wii \textit{Remote} dan \textit{PC Suite}. \textit{Software Suite} yang dikembangkan memungkinkan tampilan PC apapun dapat digunakan sebagai papan tulis interaktif. Sistem yang dibangun memiliki fungsi yang diperlukan untuk menciptakan sarana pembelajaran yang lebih baik dan lebih berteknologi, serta memberi pengguna dan siswa alat tambahan untuk menunjang Pendidikan interaktif. \textit{PC Suite} dibuat seramah mungkin sehingga dapat digunakan dengan mudah pada komputer standar.\
+
+\subsubsection{Penelitian Berkaitan dengan \textit{Word Detection}}
+Arun et al. [4] menyajikan pendekatan sederhana untuk segmentasi huruf kata tulisan tangan menggunakan pendekatan bounding box dan pendekatan berbasis pixel. Segmentasi huruf tulisan tangan merupakan proses yang menantang karena gaya penulisan yang bervariasi. Kata-kata tulisan tangan yang tidak bersentuhan disegmentasikan dengan pendekatan bounding box dan kata-kata tulisan tangan yang bersentuhan disegmentasi menggunakan pendekatan pixel. Paper ini mencapai tingkat segmentasi hingga 94.45\% dan tingkat pengenalan 85.89\% dengan skema training dan testing 50-50\%.
+
+\subsubsection{Penelitian Berkaitan dengan YOLO \textit{Object Detection}}
+Karlina dan Indarti [5] membuat pengenalan objek makanan cepat saji dari \textit{video} dan \textit{real time webcam} menggunakan metode \textit{deep learning. You Only Look Once (YOLO)} merupakan model \textit{deep learning} yang digunakan untuk pengenalan objek. Jumlah data yang digunakan terdiri dari 468 gambar yang terdiri dari 3 jenis makanan cepat saji. Nilai avg loss pada model akhir yang dibangun yaitu 4.6\%, nilai validasi mAP 100\%, serta akurasi akhir berkisar antara 63\% sampai 100\%.
 
 \subsection{Gap Penelitian}
-Pada penelitian sebelumnya beberapa sudah menggunakan faktor etnis sebagai penentu estimasi umur dan 
-gender, namun belum mengestimasikan ras dan juga masih merupakan program yang mendeteksi foto dari input 
-yang berasal dari dataset bukan dari kamera secara langsung.
+Pada penelitian berkaitan dengan \textit{smart whiteboard} [3] telah dibuat \textit{smart whiteboard} yang dapat mendeteksi huruf yang dibuat dengan alat, namun tidak dapat mendeteksi tulisan yang dibuat pada papan tulis. Kemudian, pada penelitian berkaitan dengan \textit{word detection} [1] [4] telah dibuat algoritma pendeteksi huruf menggunakan pendekatan textit{structure learning, bounding box,} dan \textit{pixel based,} namun tidak menggunakan metode \textit{You Only Look Once (YOLO).} Sedangkan pada penelitian berkaitan dengan \textit{YOLO Object Detection} [5] YOLO digunakan untuk deteksi objek berupa makanan cepat saji, namun tidak digunakan untuk deteksi huruf balok pada papan tulis pintar.
 
 \subsection{Tujuan Penelitian}
-
-% Ubah paragraf berikut sesuai dengan tujuan penelitian dari tugas akhir
-Tujuan yang ingin dicapai dari Tugas Akhir ini adalah untuk mengembangkan sebuah model menggunakan 
-Convolutional Neural Network yang dapat mengestimasi umur, gender dan etnik yang mempermudah proses 
-pengumpulan dan pengambilan data terkait umur, gender dan etnik.
+Tujuan dari dibuatnya tugas akhir ini yaitu untuk membuat program komputer yang dapat melakukan pengenalan teks huruf balok sehingga dapat diimplementasikan pada alat \textit{Smart Whiteboard.}

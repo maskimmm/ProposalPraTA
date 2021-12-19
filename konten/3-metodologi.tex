@@ -4,34 +4,16 @@
 
 \subsection{Data dan Peralatan}
 
-Berikut merupakan data dan perlatan yang mendukung pengerjaan Tugas Akhir ini.
+\subsubsection{Data}
+Dataset yang akan digunakan dalam proses pembuatan tugas akhir ini yaitu dataset buatan peneliti. Adapun rencana pembuatan dataset yaitu dataset berdasarkan beberapa tulisan tangan dari rekan peneliti yang ditulis disebuah papan tulis dan kemudian diambil gambarnya dalam beberapa pengaturan sudut, resolusi, serta pencahayaan yang berbeda.
+
+\subsubsection{Peralatan}
 \begin{itemize}
-   \item [a.] UTKFace Dataset \\
-   UTKFace dataset  merupakan dataset wajah dengan rentan umur yang panjang (dari 0 hingga 116 tahun). 
-   Terdiri atas lebih dari 20.000 gambar wajah dengan anotasi umur, jenis kelamin dan etnik. Gambar wajah
-   dalam dataset memiliki berbagai pose, ekspresi wajah, resolusi dan banyak lagi. Dataset ini dapat 
-   digunakan untuk berbagai jenis tugas seperti deteksi wajah, perkiraan umur, pengurangan umur dan 
-   lainnya\citep{UTKFace}. Untuk waktu pengaksesan dataset ini adalah 10 Oktober 2021 pada link 
-   www.kaggle.com/jangedoo/utkface-new.
-    \begin{figure} [H] \centering
-      % Nama dari file gambar yang diinputkan
-      \includegraphics[scale=0.2]{gambar/UTKFace.png}
-      % Keterangan gambar yang diinputkan
-      \caption{Dataset UTKFace}
-      % Label referensi dari gambar yang diinputkan
-      \label{fig:UTKFace}
-    \end{figure}
+   \item [a.] Laptop \\
+   Laptop merupakan perangkat keras (Hardware) yang berfungsi untuk mengolah data. Laptop yang digunakan pada penelitian tugas akhir memiliki spesifikasi Intel Core i5-8300H 2.3 GHz (8 CPUs), HDD Storage 1 TB, SSD Storage 256 GB, RAM 16 GB DDR4 2666 MHz, Graphic Card NVIDIA GeForce GTX 1050 Ti 4GB GDDR5.
 
-   \item [b.] Laptop \\
-   Personal computer portable dengan spesifikasi prosesor intel i5 generasi lima, GPU nvidia Geforce 930M, 
-   RAM 8GB dan storage 750GB akan digunakan untuk pembuatan model dan pencobaan model yang sudah jadi 
-   menggunakan kamera yang tersedia pada perangkat.
-
-   \item [c.] Google Collab \\
-   Merupakan sebuah website yang dimiliki oleh Google yang dapat digunakan untuk membuat program dan 
-   menjalankannya. Menyediakan beberapa pilihan untuk menjalankan program melalui koneksi internet dan 
-   tidak membebani kerja komputer. Dalam tugas akhir ini berfungsi sebagai tempat menjalankan program 
-   training dataset dan juga pembuatan model menggunakan GPU dalam cloud yang disediakan Google Collab.
+   \item [b.] Google Colaboratory \\
+   Google Colaboratory merupakan sebuah \textit{cloud-based executable code} yang dapat menunjang programmer dalam menjalankan serangkaian kode yang dimilikinya. Keunggulan dari Google Colaboratory yaitu proses eksekusi kode dapat dilakukan secara cloud sehingga dapat meringankan beban kerja pada laptop.
 \end{itemize}
    
 
@@ -48,23 +30,14 @@ Metodologi yang digunakan dalam pengerjaan Tugas Akhir ini adalah sebagai beriku
     \end{figure}
 
 \begin{enumerate}
-   \item \textbf{Pemrosesan Dataset} \\
-   Pada tahap ini dataset yang digunakan aakn dicek dan dibagi berdasarkan training, validation dan 
-   testing, serta menyiapkan dataset untuk digunakan pada pembuatan model nantinya.
-   \item \textbf{Pemilihan Model} \\
-   Memilih model atau arsitektur Convolutional Neural Network atau CNN yang tepat sesuai dengan UTKFace 
-   dataset yang telah disediakan sebelumnya dan membangun model untuk keperluan training.
+   \item \textbf{Pengambilan Dataset} \\
+   Pada tahapan ini, dilakukan proses pengambilan data berdasarkan kebutuhan pembuatan tugas akhir. Data yang akan dikumpulkan pada tahapan ini yaitu berupa sejumlah foto dari masing-masing huruf balok. Pada tahapan ini pula, dilakukan proses pemberian label pada dataset.
+   \item \textbf{Pre-Processing} \\
+   Pada tahapan ini, dilakukan \textit{pre-processing} dari dataset yang sebelumnya telah didapat. Pada tahapan ini pula, dataset dibagi menjadi 3 bagian yaitu \textit{data training, data validation dan data testing. }
    \item \textbf{Training} \\
-   Pada tahap ini dataset akan digunakan untuk melatih komputer dengan cara mengolah gambar dan anotasi 
-   yang telah dibuat sehingga terbentuk pola atau karakteristik dari masing masing kelas yang akan 
-   menjadi bahan pertimbangan komputer dalam mencapai sebuah keputusan atau melakukan prediksi. 
-   Proses training akan dilakukan menggunakan Covolutional Neural Network atau CNN pada citra wajah 
-   yang diberikan.
-   \item \textbf{Tuning} \\
-   Model yang sudah jadi akan dievaluasi dan dilakukan pengaturan lagi untuk meningkatkan peforma dan 
-   keakuratan model.
-   \item \textbf{Pengujian dan Analisa} \\
-   Sistem yang sudah jadi akan diuji pada dataset yang telah disiapkan untuk testing dan juga akan dicoba 
-   pada kamera di wilayah ramai orang untuk mengumpulkan data. Kemudian data yang diperoleh dianalisa 
-   dan dicatat untuk keperluan pembuatan laporan nantinya.
+   Pada tahapan ini, dilakukan proses \textit{training} dan \textit{tuning} menggunakan YOLO. Pada proses pembangunan model ini pula ditentukan \textit{epoch, Batch Size, Iteration, dan Loss Function.}
+   \item \textbf{Testing} \\
+   Pada tahapan ini, dilakukan proses testing yaitu untuk pengujian model yang telah dibangun sebelumnya untuk menentukan apakah model yang telah dibuat dirasa sudah cukup atau perlu dilakukan perubahan konfigurasi kembali dari awal. Pada tahapan ini pula, model dianalisa serta dievaluasi menggunakan \textit{Confusion Matrix.}
+   \item \textbf{Hasil} \\
+   Pada tahapan ini, jika model telah sesuai dengan threshold dan model telah berfungsi dengan baik, maka proses selanjutnya yaitu pelaporan dalam pembukuan tugas akhir.
 \end{enumerate}

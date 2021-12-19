@@ -1,138 +1,71 @@
 \section{TINJAUAN PUSTAKA}
 
-% Ubah konten-konten berikut sesuai dengan isi dari tinjauan pustaka
-Tujuan yang ingin dicapai dari Tugas Akhir ini adalah untuk mengembangkan sebuah model menggunakan 
-Convolutional Neural Network yang dapat mengestimasi umur, gender dan etnik yang mempermudah proses 
-pengumpulan dan pengambilan data terkait umur, gender dan etnik.
-
-\subsection{Wajah}
+\subsection{\textit{Convolutional  Neural Network (CNN)}}
+CNN merupakan algoritma \textit{deep learning} yang mampu mengambil masukan berupa gambar, menetapkan prioritas untuk berbagai aspek/objek dalam gambar dan mampu membedakan satu sama lain. Tahapan \textit{pre-processing} yang dibutuhkan CNN lebih sedikit jika dibandingkan dengan algoritma klasifikasi lainnya [6].
 
 % Contoh penggunaan referensi dari pustaka
 % Newton pernah merumuskan \citep{Newton1687} bahwa \lipsum[8]
 % Contoh penggunaan referensi dari persamaan
 % Kemudian menjadi persamaan seperti pada persamaan \ref{eq:FirstLaw}.
 
-Wajah merupakan bagian dari tubuh manusia yang menjadi fokus perhatian di dalam interaksi sosial, 
-wajah memainkan peranan vital dengan menunjukan identitas dan emosi. Kemampuan manusia untuk mengetahui 
-seseorang dari wajahnya sangat luar biasa. Kita dapat mengenali ribuan wajah karena frekuensi interaksi 
-yang sangat sering ataupun hanya sekilas bahkan dalam rentang waktu yang sangat lama. Bahkan kita mampu 
-mengenali seseorang walaupun terjadi perubahan pada orang tersebut karena bertambahnya usia atau 
-pemakaian kacamata atau perubahan gaya rambut. Oleh karena itu wajah digunakan sebagai organ dari tubuh 
-manusia yang dijadikan indikasi pengenalan seseorang. Dimana identitas, ekspresi, gender, umur dan etnik 
-disebut dengan dalam wajah.
+\subsection{\textit{You Only Look Once (YOLO)}}
+YOLO merupakan salah satu arsitektur dari CNN yang dioptimasi untuk mendeteksi objek pada gambar. Arsitektur YOLO sangat cepat apabila dibandingkan dengan arsitektur pengenalan objek lainnya [7]. 
 
-\subsection{Umur}
-Umur merupakan rentang kehidupan yang diukur dengan tahun, dikatakan masa awal dewasa adalah usia 18 – 40 
-tahun, dewasa madya adalah 41 – 60 tahun, dewasa lanjut lebih dari 60 tahun. Umur adalah lamanya hidup 
-dalam tahun yang dihitung sejak dilahirkan\citep{MasaTubuh}.
-% input gambar
-\begin{figure} [H] \centering
-    % Nama dari file gambar yang diinputkan
-    \includegraphics[scale=0.6]{gambar/umur.png}
-    % Keterangan gambar yang diinputkan
-    \caption{Kategori umur menurut Depkes. RI (2009)}
-    % Label referensi dari gambar yang diinputkan
-    \label{fig:Umur}
-\end{figure}
+% % input gambar
+% \begin{figure} [H] \centering
+%     % Nama dari file gambar yang diinputkan
+%     \includegraphics[scale=0.6]{gambar/umur.png}
+%     % Keterangan gambar yang diinputkan
+%     \caption{Kategori umur menurut Depkes. RI (2009)}
+%     % Label referensi dari gambar yang diinputkan
+%     \label{fig:Umur}
+% \end{figure}
 
-\subsection{Gender}
-Gender merupakan perbedaan yang terlihat antara laki-laki dan perempuan apabila dilihat dari penampilan 
-dan tingkah laku. Gender dapat didefinisikan sebagai keadaan dimana individu yang lahir secara biologis 
-sebagai laki-laki dan perempuan yang kemudian memperoleh pencirian sosial sebagai laki-laki dan perempuan 
-melalui atribut maskulinitas dan feminimitas yang diperlihatkan individu tersebut\citep{LanguageGender}.
+\subsection{\textit{Word Segmentation}}
+Pengenalan tulisan tangan merupakan Teknik untuk menginterpretasikan tulisan tangan kedalam bentuk digital. Proses pengenalan tulisan tangan dapat diperoleh dengan 2 cara yaitu dengan mengonversi otomatis karakter pada saat ditulis pada layar sentuh dengan pena digital dan cara lain yaitu dengan melakukan pengambilan gambar serta pemrosesan gambar pada suatu teks yang ingin dikenali [8]. Pada proses segmentasi huruf, mulanya dokumen gambar disegmentasi kedalam baris-baris teks. Kemudian, algoritma segmentasi huruf diterapkan pada satu baris teks tersebut. Pada satu baris teks tersebut, secara umum proses segmentasi huruf konvensional menjalankan algoritma yang terdiri dari 2 tahapan yaitu: ekstraksi kandidat huruf berdasarkan pemisah huruf dan dilanjut dengan klasifikasi kandidat huruf [1].
 
-\subsection{Etnis}
-Kata etnis mengacu pada suatu golongan atau kelompok manusia yang anggota - anggotanya mengidentifikasikan 
-dirinya dengan sesamanya, biasanya berdasarkan garis keturunan dan adat yang dianggap sama. Identitas 
-etnis ditandai oleh pengakuan dari orang lain akan ciri khas kelompok tersebut seperti kesamaan budaya, 
-bahasa, agama, perilaku, dan ciri-ciri biologis\citep{Ethnicity}.
-% input gambar
-\begin{figure} [H] \centering
-    % Nama dari file gambar yang diinputkan
-    \includegraphics[scale=0.6]{gambar/etnik.png}
-    % Keterangan gambar yang diinputkan
-    \caption{Macam-macam Etnik di dunia}
-    % Label referensi dari gambar yang diinputkan
-    \label{fig:Etnik}
-\end{figure}
+% \subsection{Deep Learning}
+%  Deep Learning merupakan artificial neural network yang memiliki banyak layer dan synapse weight. 
+%  Deep learning dapat menemukan relasi tersembunyi atau pola yang rumit antara input dan output, yang 
+%  tidak dapat diselesaikan menggunakan multilayer perceptron. Keuntungan  utama  deep  learning  yaitu 
+%  mampu merubah data dari nolinearly separable menjadi linearly separable melalui serangkaian transformasi 
+%  (hidden layers). Selain itu, deep learning juga mampu mencari decision boundary yang berbentuk non-linier
+%  , serta mengsimulasikan interaksi non-linier antar fitur. Jadi, input ditransformasikan secara 
+%  non-linier sampai akhirnya pada output, berbentuk distribusi class-assignment\citep{DeepLearning}.
 
-\subsection{Visi Komputer}
-Visi komputer adalah bidang ilmiah interdisipliner yang membahas bagaimana komputer dapat memperoleh 
-pemahaman tingkat tinggi dari gambar atau video digital. Dari perspektif teknik, bidang ini berupaya 
-mengotomatiskan tugas-tugas yang dapat dilakukan oleh sistem pengelihatan  manusia. Tugas  penglihatan 
-komputer   meliputi metode untuk memperoleh, memproses, menganalisis dan memahami gambar digital, dan 
-ekstraksi data dimensi tinggi dari dunia nyata untuk menghasilkan informasi numerik atau simbolis, 
-misalnya dalam bentuk keputusan. Pengertian dalam konteks ini berarti transformasi gambar visual 
-(input retina) menjadi deskripsi mengenai dunia sekitar yang dapat berinteraksi dengan proses pemikiran 
-lain dan memperoleh tindakan yang sesuai. Pemahaman gambar ini dapat dilihat sebagai penguraian informasi 
-simbolik dari data gambar menggunakan model yang dibangun dengan bantuan geometri, fisika, statistik, dan 
-teori pembelajaran. Sub-domain dari pengelihatan komputer meliputi rekonstruksi adegan, deteksi peristiwa, 
-pelacakan video, pengenalan objek, estimasi pose 3D, pembelajaran, pengindeksan, estimasi gerakan, dan 
-pemulihan gambar\citep{MachineVisionMachineLearning}.
+%  \begin{figure} [H] \centering
+%     % Nama dari file gambar yang diinputkan
+%     \includegraphics[scale=0.6]{gambar/deeplearning.png}
+%     % Keterangan gambar yang diinputkan
+%     \caption{Deep Learning 4 layer}
+%     % Label referensi dari gambar yang diinputkan
+%     \label{fig:Deep Learning}
+% \end{figure}
 
-\subsection{Machine Learning}
-Machine Learning (ML) atau Pembelajaran Mesin merupakan bagian dari Artificial Intelligence (AI) yang 
-bertujuan untuk memberi optimalisasi dalam kriteria dengan cara menganalisa sampel data yang terdahulu 
-yang sudah disimpan atau direkam untuk menghasilkan sebuah prediksi. Sehingga manusia tidak perlu 
-mengindentifikasi sebuah proses sepenuhnya, karena dengan Machine Learning, komputer mampu membuat pola 
-untuk membuat keputusan. Machine Learning melakukan training yang merupakan proses pembelajaran terhadap 
-model data yang sudah terdefinisikan ke beberapa parameter (data training) yang menghasilkan beberapa 
-pola sehingga komputer dapat melakukan proses klasifikasi berdasarkan pola atau ciri-ciri yang sudah 
-didapatkan dalam proses training. Kemudian komputer dapat memberikan sebuah prediksi pada data baru 
-selanjutnya berdasarkan hasil training. Machine Learning dapat memberi solusi dalam berbagai permasalahan
- seperti Computer Vision (Visi Komputer), Speech Recognition (Pengenalan Suara) dan Robotics (Robotika)\citep{MachineLearning}.
+% \subsection{Convolutional Neural Network (CNN)}
+% Convolutional Neural Network (CNN) merupakan cabang dari Multilayer Perceptron (MLP) yang digunakan untuk
+% mengolah data dua dimensi. CNN memiliki kedalaman jaringan yang tinggi sehingga CNN termasuk dalam jenis
+% Deep Neural Network. Perbedaan CNN dengan MLP terdapat pada neuron dimana pada MLP setiap neuron hanya
+% berukuran satu dimensi, sedangkan CNN setiap neuronnya berukuran dua dimensi. Pada CNN, operasi linier
+% menggunakan operasi konvolusi\citep{CNN}.
 
-\subsection{Deep Learning}
- Deep Learning merupakan artificial neural network yang memiliki banyak layer dan synapse weight. 
- Deep learning dapat menemukan relasi tersembunyi atau pola yang rumit antara input dan output, yang 
- tidak dapat diselesaikan menggunakan multilayer perceptron. Keuntungan  utama  deep  learning  yaitu 
- mampu merubah data dari nolinearly separable menjadi linearly separable melalui serangkaian transformasi 
- (hidden layers). Selain itu, deep learning juga mampu mencari decision boundary yang berbentuk non-linier
- , serta mengsimulasikan interaksi non-linier antar fitur. Jadi, input ditransformasikan secara 
- non-linier sampai akhirnya pada output, berbentuk distribusi class-assignment\citep{DeepLearning}.
+% \subsection{Image Processing}
+% Image Processing atau Pengolahan Citra merupakan teknik dalam pemrosesan gambar dengan input berupa 
+% citra dua dimensi yang bertujuan untuk menyempurnakan citra atau mendapatkan informasi yang berguna 
+% untuk diolah menjadi beberapa keputusan. Dalam operasi pemrosesan citra, operasi yang sering dilakukan 
+% dalam format gambar grayscale. Gambar grayscale didapatkan dari pemrosesan gambar berwarna yang 
+% didekomposisi menjadi komponen merah (R), hijau (G) dan biru (B) yang diproses secara independen sebagai 
+% gambar grayscale. Image Processing terbagi menjadi dalam tiga tingkatan\citep{ImageProcesing}:
+%     \begin{enumerate}
+%         \item Low-Level Image Processing \\
+%         Low-Level Image Processing merupakan operasi sederhana dalam pengolahan gambar dimana input dan 
+%         output berupa gambar. Contoh: contrast enchancement dan noise reduction.
+%         \item Mid-Level Image Processing \\
+%         Mid-Level Image Processing merupakan operasi pengolahan gambar yang melibatkan ekstrasi atribut dari 
+%         gambar input. Contoh: edges, contours dan regions.
+%         \item High-Level Image Processing \\
+%         High-Level Image Processing merupakan merupakan kategoriyang melibatkan pemrosesan gambar kompleks 
+%         yang terkait dengan analisis dan interpretasi konten dalam sebuah keadaan untuk pengambilan keputusan.
+%     \end{enumerate}
 
- \begin{figure} [H] \centering
-    % Nama dari file gambar yang diinputkan
-    \includegraphics[scale=0.6]{gambar/deeplearning.png}
-    % Keterangan gambar yang diinputkan
-    \caption{Deep Learning 4 layer}
-    % Label referensi dari gambar yang diinputkan
-    \label{fig:Deep Learning}
-\end{figure}
 
-\subsection{Convolutional Neural Network (CNN)}
-Convolutional Neural Network (CNN) merupakan cabang dari Multilayer Perceptron (MLP) yang digunakan untuk
-mengolah data dua dimensi. CNN memiliki kedalaman jaringan yang tinggi sehingga CNN termasuk dalam jenis
-Deep Neural Network. Perbedaan CNN dengan MLP terdapat pada neuron dimana pada MLP setiap neuron hanya
-berukuran satu dimensi, sedangkan CNN setiap neuronnya berukuran dua dimensi. Pada CNN, operasi linier
-menggunakan operasi konvolusi\citep{CNN}.
-
-\subsection{Image Processing}
-Image Processing atau Pengolahan Citra merupakan teknik dalam pemrosesan gambar dengan input berupa 
-citra dua dimensi yang bertujuan untuk menyempurnakan citra atau mendapatkan informasi yang berguna 
-untuk diolah menjadi beberapa keputusan. Dalam operasi pemrosesan citra, operasi yang sering dilakukan 
-dalam format gambar grayscale. Gambar grayscale didapatkan dari pemrosesan gambar berwarna yang 
-didekomposisi menjadi komponen merah (R), hijau (G) dan biru (B) yang diproses secara independen sebagai 
-gambar grayscale. Image Processing terbagi menjadi dalam tiga tingkatan\citep{ImageProcesing}:
-    \begin{enumerate}
-        \item Low-Level Image Processing \\
-        Low-Level Image Processing merupakan operasi sederhana dalam pengolahan gambar dimana input dan 
-        output berupa gambar. Contoh: contrast enchancement dan noise reduction.
-        \item Mid-Level Image Processing \\
-        Mid-Level Image Processing merupakan operasi pengolahan gambar yang melibatkan ekstrasi atribut dari 
-        gambar input. Contoh: edges, contours dan regions.
-        \item High-Level Image Processing \\
-        High-Level Image Processing merupakan merupakan kategoriyang melibatkan pemrosesan gambar kompleks 
-        yang terkait dengan analisis dan interpretasi konten dalam sebuah keadaan untuk pengambilan keputusan.
-    \end{enumerate}
-
-\subsection{Digital Image}
-Digital Image merupakan fungsi dua dimensi f(x,y) yang merupakan proyeksi dari bentuk tiga dimensi kedalam 
-bentuk dua dimensi dimana x dan y merupakan lokasi elemen gambar atau piksel yang berisikan nilai. Ketika
-nilai x,y dan intensitasnya berupa diskrit, maka gambar tersebut dapat dikategorikan sebagai digital
-image. Secara matematis, digital image adalah representasi matriks dari gambar dua dimensi menggunakan
-piksel. Setiap piksel  diwakili  oleh  nilai  numerik. Untuk  gambar  grayscale,  hanya  memiliki  
-satu  nilai dengan kisaran antara 0-255.Pada Gambar 2.5, untuk gambar yang berwarna, memiliki tiga 
-nilai yang mewakili merah (R), hijau (G) dan biru (B) yang masing-masing memiliki kisaran nilai yang 
-sama antara 0-255. Jika suatu gambar hanya memiliki dua intensitas, gambar tersebut dikenal sebagai 
-binary image\citep{ImageProcesing}.
