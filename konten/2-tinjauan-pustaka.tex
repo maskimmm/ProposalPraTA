@@ -1,71 +1,28 @@
 \section{TINJAUAN PUSTAKA}
 
+\subsection{\textit{Deep Learning}}
+\textit{Deep learning} (DL) memungkinkan memungkinkan model komputasi dari beberapa lapisan pemrosesan untuk mempelajari dan mewakilli data dengan berbagai tingkat abstraksi. \textit{Deep learning} merupakan metode yang memiliki implementasi sangat banyak mencakup \textit{Neural Networks, hierarchical probabilistic models, unsupervised} and \textit{supervised learning} \citep*{voulodimos2018deep}. \textit{Deep Learning} dirancang untuk dapat terus mengolah data dan menganalisa data tersebut seperti dalam mengambil keputusan. Adapun dalam \textit{Deep Learning, training} suatu data dipengaruhi oleh banyaknya jumlah layer dan jumlah neuron. Artinya, semakin banyak layer atau neuron yang digunakan maka akan semakin lama proses yang dilakukan, hal ini disebabkan oleh tingkat kompleksitas yang semakin besar juga.
+
+% \subsection{\textit{Computer Vision}}
+% \textit{Computer Vision} adalah ilmu pemrograman komputer yang digunakan untuk memproses dan memahami citra gambar dan video.
+
 \subsection{\textit{Convolutional  Neural Network (CNN)}}
-CNN merupakan algoritma \textit{deep learning} yang mampu mengambil masukan berupa gambar, menetapkan prioritas untuk berbagai aspek/objek dalam gambar dan mampu membedakan satu sama lain. Tahapan \textit{pre-processing} yang dibutuhkan CNN lebih sedikit jika dibandingkan dengan algoritma klasifikasi lainnya \citep*{towardsDS}.
+CNN merupakan algoritma \textit{deep learning}yang mampu mengambil masukan berupa gambar, menetapkan prioritas untuk berbagai aspek/objek dalam gambar dan mampu membedakan satu sama lain. Tahapan \textit{pre-processing} yang dibutuhkan CNN lebih sedikit jika dibandingkan dengan algoritma klasifikasi lainnya \citep*{towardsDS}. \textit{Convolutional Neural Network (CNN)} itu sendiri juga merupakan pengembangan dari \textit{Multilayer Percepton (MLP)} yang didesain untuk mengolah data dua dimensi. CNN termasuk dalam jenis \textit{Deep Neural Network} karena kedalaman jaringan yang tinggidan banyak diaplikasikan pada data citra \citep*{putra2016klasifikasi}.\par
+Secara sederhana, CNN memiliki beberapa jenis \textit{neural layers} yang masing-masing memiliki peranannya masing-masing \citep*{voulodimos2018deep}. Adapun secara sederhana CNN terdiri dari 3 jenis utama \textit{neural layers} yaitu: 
+\begin{enumerate}
+    \item \textit{Convolutional Layers}
+    \item \textit{Pooling Layers}
+    \item \textit{Fully Connected Layers}
+\end{enumerate}
+Secara umum, cara kerja CNN hampir serupa pada MLP, hanya saja dalam CNN setiap neuron dipresentasikan dalam bentuk dua dimensi. Adapun cara kerja dari suatu MLP sederhana yaitu MLP semula memiliki sejumlah \textit{layer} dengan masing-masing layer memiliki sejumlah \textit{neuron}. MLP menerima masukan data dalam bentuk satu dimensi, kemudian mempropagasikan data tersebut pada jaringan sehingga didapat hasil keluaran. 
+Setiap hubungan antar \textit{neuron} pada dua \textit{layer} yang bersebelahan memiliki parameter bobot satu dimensi yang menentukan kualitas mode. Disetiap data input pada layer dilakukan operasi linear dengan nilai bobot yang ada, kemudian hasil komputasi akan ditransformasi menggunakan operasi non linear yang disebut sebagai fungsi aktivasi.\\
 
-% Contoh penggunaan referensi dari pustaka
-% Newton pernah merumuskan \citep{Newton1687} bahwa \lipsum[8]
-% Contoh penggunaan referensi dari persamaan
-% Kemudian menjadi persamaan seperti pada persamaan \ref{eq:FirstLaw}.
-
-\subsection{\textit{You Only Look Once (YOLO)}}
-YOLO merupakan salah satu arsitektur dari CNN yang dioptimasi untuk mendeteksi objek pada gambar. Arsitektur YOLO sangat cepat apabila dibandingkan dengan arsitektur pengenalan objek lainnya \citep*{jeong2018image}. 
-
-% % input gambar
-% \begin{figure} [H] \centering
-%     % Nama dari file gambar yang diinputkan
-%     \includegraphics[scale=0.6]{gambar/umur.png}
-%     % Keterangan gambar yang diinputkan
-%     \caption{Kategori umur menurut Depkes. RI (2009)}
-%     % Label referensi dari gambar yang diinputkan
-%     \label{fig:Umur}
-% \end{figure}
+\subsection{\textit{Object Detection}}
+\textit{Object Detection} adalah sebuah proses untuk mendeteksi suatu instance objek semantik dari kelas tertentu (seperti bentuk, huruf, pesawat, angka, dan lain lain) dalam sebuah gambar atau video. Pendekatan umum dari  \textit{frameworks} deteksi objek mencakupi pembuatan set besar yang diklasifikasikan secara sekuel menggunakan fitur CNN \citep*{voulodimos2018deep}. 
 
 \subsection{\textit{Word Segmentation}}
 Pengenalan tulisan tangan merupakan Teknik untuk menginterpretasikan tulisan tangan kedalam bentuk digital. Proses pengenalan tulisan tangan dapat diperoleh dengan 2 cara yaitu dengan mengonversi otomatis karakter pada saat ditulis pada layar sentuh dengan pena digital dan cara lain yaitu dengan melakukan pengambilan gambar serta pemrosesan gambar pada suatu teks yang ingin dikenali [8]. Pada proses segmentasi huruf, mulanya dokumen gambar disegmentasi kedalam baris-baris teks. Kemudian, algoritma segmentasi huruf diterapkan pada satu baris teks tersebut. Pada satu baris teks tersebut, secara umum proses segmentasi huruf konvensional menjalankan algoritma yang terdiri dari 2 tahapan yaitu: ekstraksi kandidat huruf berdasarkan pemisah huruf dan dilanjut dengan klasifikasi kandidat huruf \citep*{ryu2015word}.
 
-% \subsection{Deep Learning}
-%  Deep Learning merupakan artificial neural network yang memiliki banyak layer dan synapse weight. 
-%  Deep learning dapat menemukan relasi tersembunyi atau pola yang rumit antara input dan output, yang 
-%  tidak dapat diselesaikan menggunakan multilayer perceptron. Keuntungan  utama  deep  learning  yaitu 
-%  mampu merubah data dari nolinearly separable menjadi linearly separable melalui serangkaian transformasi 
-%  (hidden layers). Selain itu, deep learning juga mampu mencari decision boundary yang berbentuk non-linier
-%  , serta mengsimulasikan interaksi non-linier antar fitur. Jadi, input ditransformasikan secara 
-%  non-linier sampai akhirnya pada output, berbentuk distribusi class-assignment\citep{DeepLearning}.
-
-%  \begin{figure} [H] \centering
-%     % Nama dari file gambar yang diinputkan
-%     \includegraphics[scale=0.6]{gambar/deeplearning.png}
-%     % Keterangan gambar yang diinputkan
-%     \caption{Deep Learning 4 layer}
-%     % Label referensi dari gambar yang diinputkan
-%     \label{fig:Deep Learning}
-% \end{figure}
-
-% \subsection{Convolutional Neural Network (CNN)}
-% Convolutional Neural Network (CNN) merupakan cabang dari Multilayer Perceptron (MLP) yang digunakan untuk
-% mengolah data dua dimensi. CNN memiliki kedalaman jaringan yang tinggi sehingga CNN termasuk dalam jenis
-% Deep Neural Network. Perbedaan CNN dengan MLP terdapat pada neuron dimana pada MLP setiap neuron hanya
-% berukuran satu dimensi, sedangkan CNN setiap neuronnya berukuran dua dimensi. Pada CNN, operasi linier
-% menggunakan operasi konvolusi\citep{CNN}.
-
-% \subsection{Image Processing}
-% Image Processing atau Pengolahan Citra merupakan teknik dalam pemrosesan gambar dengan input berupa 
-% citra dua dimensi yang bertujuan untuk menyempurnakan citra atau mendapatkan informasi yang berguna 
-% untuk diolah menjadi beberapa keputusan. Dalam operasi pemrosesan citra, operasi yang sering dilakukan 
-% dalam format gambar grayscale. Gambar grayscale didapatkan dari pemrosesan gambar berwarna yang 
-% didekomposisi menjadi komponen merah (R), hijau (G) dan biru (B) yang diproses secara independen sebagai 
-% gambar grayscale. Image Processing terbagi menjadi dalam tiga tingkatan\citep{ImageProcesing}:
-%     \begin{enumerate}
-%         \item Low-Level Image Processing \\
-%         Low-Level Image Processing merupakan operasi sederhana dalam pengolahan gambar dimana input dan 
-%         output berupa gambar. Contoh: contrast enchancement dan noise reduction.
-%         \item Mid-Level Image Processing \\
-%         Mid-Level Image Processing merupakan operasi pengolahan gambar yang melibatkan ekstrasi atribut dari 
-%         gambar input. Contoh: edges, contours dan regions.
-%         \item High-Level Image Processing \\
-%         High-Level Image Processing merupakan merupakan kategoriyang melibatkan pemrosesan gambar kompleks 
-%         yang terkait dengan analisis dan interpretasi konten dalam sebuah keadaan untuk pengambilan keputusan.
-%     \end{enumerate}
-
+\subsection{\textit{You Only Look Once (YOLO)}}
+YOLO merupakan salah satu arsitektur dari CNN yang dioptimasi untuk mendeteksi objek pada gambar. Arsitektur YOLO sangat cepat apabila dibandingkan dengan arsitektur pengenalan objek lainnya . YOLO melakukan proses pengenalan objek berbasis CNN dalam sebuah kotak yang disebut \textit{anchor} yang dipusatkan pada 13x13 \textit{grid cell} dalam sebuah gambar. Artinya, ukuran gambar diubah (dikurangi) menjadi 416x416 terlepas dari ukuran asli dari gambar yang ingin di proses \textit{train or detect}. Artinya, jika terdapat perbedaan besar dalam rasio gambar yang diproses \textit{train}, maka akan terjadi distorsi serius pada objek ketika dilakukan proses penyesuaian ukuran\citep*{jeong2018image}. \\
 
